@@ -1,3 +1,5 @@
 import {someBarFunc, someFooFunc} from "./lib";
 
-someBarFunc(1) + someFooFunc(2)
+var a = someBarFunc(1) + someFooFunc(2)
+
+console.log(a);
